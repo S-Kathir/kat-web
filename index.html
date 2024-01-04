@@ -11,6 +11,12 @@
     <button onclick="playMusic()">Play</button>
     <button onclick="pauseMusic()">Pause</button>
     <audio id="musicPlayer" controls></audio>
+    
+    <div class="volume-controls">
+        <button onclick="decreaseVolume()">-</button>
+        <span id="volumeValue">50</span>%
+        <button onclick="increaseVolume()">+</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
